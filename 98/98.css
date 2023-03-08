@@ -115,7 +115,7 @@ input[type="submit"]:disabled {
 }
 .title-bar {
   align-items: center;
-  background: linear-gradient(90deg, navy, #1084d0);
+  background: linear-gradient(90deg, #a31f82, #ff5050);
   display: flex;
   justify-content: space-between;
   padding: 3px 2px 3px 3px;
@@ -628,15 +628,8 @@ summary:focus {
 }
 /*# sourceMappingURL=98.css.map */
 
-.center {
-  position: absolute;
-  right: 0px;
-  width: 600px;
-  padding: 10px;
-}
-
 p.top {
-  margin-top: 250px;
+  margin-top: 50px;
 }
 
 .parent {
