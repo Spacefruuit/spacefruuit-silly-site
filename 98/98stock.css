@@ -29,7 +29,7 @@ textarea,
 ul.tree-view {
   -webkit-font-smoothing: none;
   font-family: "Pixelated MS Sans Serif", Arial;
-  font-size: 14px;
+  font-size: 11px;
 }
 h1 {
   font-size: 5rem;
@@ -115,7 +115,7 @@ input[type="submit"]:disabled {
 }
 .title-bar {
   align-items: center;
-  background: linear-gradient(90deg, #0c6661, #17835f);
+  background: linear-gradient(90deg, navy, #1084d0);
   display: flex;
   justify-content: space-between;
   padding: 3px 2px 3px 3px;
@@ -492,7 +492,7 @@ a:focus {
   outline: 1px dotted #00f;
 }
 ul.tree-view {
-  background: rgb(10, 75, 70);
+  background: #fff;
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
     inset 2px 2px #0a0a0a;
   display: block;
@@ -508,7 +508,7 @@ ul.tree-view a {
 }
 ul.tree-view a:focus {
   background-color: navy;
-  color: rgb(10, 75, 55);
+  color: #fff;
 }
 ul.tree-view li,
 ul.tree-view ul {
@@ -633,17 +633,14 @@ p.top {
 }
 
 .parent {
+  border: 0px solid black;
   margin: 3px;
   padding: 0px;
   text-align: left;
 }
 .child {
   display: inline-block;
+  border: 0px solid red;
   padding: 3px 30px;
-  vertical-align: middle;
-}
-.childsm {
-  display: inline-block;
-  padding: 3px 1px;
   vertical-align: middle;
 }
