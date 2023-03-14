@@ -644,3 +644,12 @@ p.top {
   padding: 3px 30px;
   vertical-align: middle;
 }
+
+.art {
+  height: 386px;
+  width: 1495px;
+  overflow-y: auto;
+  float: left;
+  position: relative;
+  margin-left: 0px;
+}
