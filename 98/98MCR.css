@@ -646,6 +646,8 @@ p.top {
   display: inline-block;
   padding: 3px 1px;
   vertical-align: middle;
+  width: auto;
+  resize: both;
 }
 .chatbox {
   height: 386px;
